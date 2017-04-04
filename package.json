@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-forbidden-imports",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Forbidden using import/require expression in your files",
   "repository": {
     "type": "git",
