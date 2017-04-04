@@ -6,18 +6,18 @@
 [![License](https://img.shields.io/npm/l/babel-plugin-forbidden-imports.svg?style=flat-square)](https://npmjs.org/package/babel-plugin-forbidden-imports)
 
 This is a Babel plugin for static import/require modules checking. Any imported modules (using import or require) by default are forbidden. This plugin
-can be helpful in situations when you want to forbidden using specific modules in you environment.
+can be helpful in situations when you want to forbidden for using specific modules in your environment.
 
 # Installation
 
-Install via [npm](https://npmjs.org/package/babel-plugin-babel-plugin-forbidden-imports).
+Install via [npm](https://npmjs.org/package/babel-plugin-forbidden-imports).
 ```sh
 npm install --save-dev babel-plugin-forbidden-imports
 ```
 
 # Configuration
 
-Configure it in your babelrc file, usually`.babelrc`.
+Configure it in your babelrc file (`.babelrc`).
 
 ```js
 {
@@ -41,7 +41,7 @@ or use with `babel-register`
 
 ```
 require('babel-register')({
-  'plugins': [
+  plugins: [
     [
       'babel-plugin-forbidden-imports',
       {
