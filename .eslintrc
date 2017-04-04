@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb-base",
+  "parser": "babel-eslint",
+  "rules": {
+    "space-before-function-paren": [
+      2,
+      {
+        "anonymous": "ignore",
+        "named": "never"
+      }
+    ]
+  }
+}
