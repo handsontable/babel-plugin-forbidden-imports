@@ -10,6 +10,7 @@
   ],
   "post_commit_commands": [],
   "post_complete_commands": [
+    "npm run build",
     "npm publish"
   ]
 }

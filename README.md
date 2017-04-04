@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/npm/l/babel-plugin-forbidden-imports.svg?style=flat-square)](https://npmjs.org/package/babel-plugin-forbidden-imports)
 
 This is a Babel plugin for static import/require modules checking. Any imported modules (using import or require) by default are forbidden. This plugin
-can be helpful in situations when you want to forbidden for using specific modules in your environment.
+can be helpful in situations when you want to forbidden using specific modules in your environment.
 
 # Installation
 
