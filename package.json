@@ -1,0 +1,46 @@
+{
+  "name": "babel-plugin-forbidden-imports",
+  "version": "0.1.1",
+  "description": "Forbidden using import/require expression in your files",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/handsontable/babel-plugin-forbidden-imports"
+  },
+  "author": "Handsoncode <hello@handsontable.com>",
+  "bugs": {
+    "url": "https://github.com/handsontable/babel-plugin-forbidden-imports/issues"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && jest --verbose",
+    "build": "babel src --out-dir lib",
+    "pre-publish": "npm run build",
+    "lint": "eslint src",
+    "release": "generate-release"
+  },
+  "license": "MIT",
+  "keywords": [
+    "babel-plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-preset-es2015": "^6.24.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint": "^3.19.0",
+    "generate-release": "^0.10.2",
+    "jest": "^19.0.2"
+  },
+  "ava": {
+    "files": [
+      "src/__tests__/*.spec.js"
+    ],
+    "require": [
+      "babel-core/register"
+    ],
+    "babelrc": "inherit"
+  }
+}
