@@ -1,9 +1,9 @@
 language: node_js
-
 sudo: false
-
 node_js:
-  - "6"
-
+- '6'
 before_script:
-  - "export TZ=Europe/Warsaw"
+- export TZ=Europe/Warsaw
+notifications:
+  slack:
+    secure: p13tc92iLP+Fu+7MBORG2fPuaYqU+2HTXAk1A10iXoJKhgFY37fvTctGsqCvlC4T5l7sLYc+Ok43f6JhoLf5bytm0EaX5AQhEYplmTGj/QAk217vJuRbV1njthXMaeao1AVX4yrh/IXU48J0AzERq+EQ0wuc7h4KFNScXFi0/nNav/wO/oz+GVVlWz4KWx2hM55ILteVK1zM6CwOrDBop98v3uwf0hPcDrqmFUsuWCsssXDseYEIK/hOnK7K9e53xVzfp+wXvOEwynKoH0QMNeC+rf2cubcxnEI9aa8y2V+uPciL6CEz9qtwafCtvlhlUzV24awPQGBp/7rXqEScqpXDiVTHjRmsWp0kTP2Kvpd58Xad+Bz4jdONiLhuvHSRIx+Ok2SEbV265a8Bgi0U2SC1swaihw68b7f/s5YVmFzPKFvBWiYGDe1mszH/tad/Hr27n1LCbdhvbbYQzqVpN/2QG+P1DHuLMFVnKr7J/4l7Vf/E09miwJV9HrgPAPPq1qwE7BtkoC8jYLCBacJKX8yZAvZ34thEnAqOef/5Sn/CK6vb9s/h3bRcnRIwRzY60f98BGRK0zREIKzrUvvENOpey/byHWUrZjWRfixt9DQzP0XEvv9yEso4znz2KGH3VgGdtn5pMkZ5HOdouq0hjU5gSB4O3OBxz2yZN1NlIYU=
